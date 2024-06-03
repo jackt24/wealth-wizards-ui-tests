@@ -1,5 +1,5 @@
 {
-  "name": "wealth-wizards-ui-test",
+  "name": "cypress-test",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
