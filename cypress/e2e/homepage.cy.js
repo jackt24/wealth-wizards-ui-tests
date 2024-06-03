@@ -1,8 +1,8 @@
 // <reference types="cypress" />
 
 describe('Basic UI Checks for Wealth Wizards', () => {
-  // beforeEach(() => {
-  //   // Visit the website before each test
+  beforeEach(() => {
+  // Visit the website before each test
     cy.visit('https://www.wealthwizards.com')
     cy.get('button[id="onetrust-accept-btn-handler"]').click()
   })
