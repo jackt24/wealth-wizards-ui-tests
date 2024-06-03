@@ -3,17 +3,15 @@
 describe('Basic UI Checks for Wealth Wizards', () => {
   beforeEach(() => {
   // Visit the website before each test
+    cy.on('uncaught:exception', (err, runnable) => {
+      return false
+    })
     cy.visit('https://www.wealthwizards.com')
     cy.get('button[id="onetrust-accept-btn-handler"]').click()
   })
 
   it('should load the homepage', () => {
     // Check that the homepage loads
-    cy.on('uncaught:exception', (err, runnable) => {
-        return false
-     })
-    cy.visit('https://www.wealthwizards.com')
-    cy.get('button[id="onetrust-accept-btn-handler"]').click()
     cy.url().should('include', 'wealthwizards.com')
    
   })
