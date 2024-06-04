@@ -8,6 +8,7 @@ jobs:
     env:
       BROWSERSTACK_USERNAME: ${{ secrets.BROWSERSTACK_USERNAME }}
       BROWSERSTACK_ACCESS_KEY: ${{ secrets.BROWSERSTACK_ACCESS_KEY }}
+      PERCY_TOKEN: ${{ secrets.PERCY_TOKEN }}
 
     steps:
       - name: Checkout code
@@ -19,10 +20,13 @@ jobs:
           node-version: '16'
 
       - name: Install dependencies
-        run: npm install
+        run: npm install 
 
       - name: Install BrowserStack Cypress CLI
         run: npm install -g browserstack-cypress-cli
 
-      - name: Run Cypress tests on BrowserStack
-        run: browserstack-cypress run --sync
+      - name: Install Percy CLI
+        run: npm install -g @percy/cli
+
+      - name: Run Cypress tests on BrowserStack with Percy
+        run: percy exec -- browserstack-cypress run --sync

@@ -10,6 +10,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@percy/cli": "^1.28.7",
+    "@percy/cypress": "^3.1.2",
     "cypress": "^13.10.0"
   }
 }
