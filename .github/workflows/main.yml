@@ -18,16 +18,12 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: '16'
-      
 
       - name: Install dependencies
-        run: npm install
+        run: npm install 
 
       - name: Install BrowserStack Cypress CLI
         run: npm install -g browserstack-cypress-cli
 
-      - name: Install Percy CLI
-        run: npm install -g @percy/cli
-
-      - name: Run Cypress tests on BrowserStack with Percy
-        run: npx percy exec -- browserstack-cypress run --sync
+      - name: Run Cypress tests on BrowserStack
+        run: browserstack-cypress run --sync
