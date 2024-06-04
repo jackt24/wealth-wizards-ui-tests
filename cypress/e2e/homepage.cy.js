@@ -63,10 +63,4 @@ describe('Basic UI Checks for Wealth Wizards', () => {
     cy.url().should('include', 'wealthwizards.com/contact-us')
   })
   
-  // it('should have a visible logo in the header', () => {
-  //   // Check that the logo is visible in the header
-  //   cy.get('head').within(() => {
-  //     cy.get('img').should('have.attr', 'alt', 'Wealth Wizards Logo').should('be.visible')
-  //   })
-  // })
 })
