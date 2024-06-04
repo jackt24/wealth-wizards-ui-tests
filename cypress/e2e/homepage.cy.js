@@ -17,6 +17,13 @@ describe('Basic UI Checks for Wealth Wizards', () => {
   
   })
 
+  it('Take a Percy Snapshot', function() {
+    // Load the page or perform any other interactions with the app.
+    cy.visit('www.wealthwizards.com');
+    // Take a snapshot for visual diffing
+    cy.percySnapshot('Homepage responsive test', { widths: [768, 992, 1200] });
+  });
+
   // it('should have a visible header', () => {
   //   // Check that the header is visible
   //   cy.get('head', { timeout: 10000 }).should('exist')
@@ -63,12 +70,3 @@ describe('Basic UI Checks for Wealth Wizards', () => {
   //   })
   // })
 })
-
-describe('Integration test with visual testing', function() {
-  it('Loads the homepage', function() {
-    // Load the page or perform any other interactions with the app.
-    cy.visit('www.wealthwizards.com');
-    // Take a snapshot for visual diffing
-    cy.percySnapshot('Homepage responsive test', { widths: [768, 992, 1200] });
-  });
-});
