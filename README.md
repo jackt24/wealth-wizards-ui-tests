@@ -1,6 +1,8 @@
 # Wealth Wizards UI Tests
 
-This repository contains end-to-end tests for the Wealth Wizards website using Cypress and BrowserStack.
+This repository contains some Cypress smoke tests for the Wealth Wizards homepage. 
+
+You can find the API Repo here <a href="https://github.com/jackt24/wealth-wizards-api-test">
 
 ## Local Setup
 
