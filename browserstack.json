@@ -1,7 +1,7 @@
 {
     "auth": {
-      "username": "jacktaylor_RudZf0",
-      "access_key": "JZoy8RWRorDCBJwmcZRx"
+      "username": "jacktaylor_4MW8bm",
+      "access_key": "TvsytLuDnRzSH3SvNF6v"
     },
     "browsers": [{
         "browser": "chrome",
@@ -25,7 +25,7 @@
       "npm_dependencies": {},
       "project_name": "Wealth Wizards UI Tests",
       "build_name": "Build no: 1",
-      "parallels": 5
+      "parallels": 2
     },
     "connection_settings": {
         "local": false
