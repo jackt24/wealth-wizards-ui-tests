@@ -4,6 +4,8 @@ This repository contains some Cypress smoke tests for the Wealth Wizards homepag
 
 [You can find the API tests here](https://github.com/jackt24/wealth-wizards-api-test)
 
+[You can view the latest BrowserStack results here](https://automate.browserstack.com/dashboard/v2/public-build/Z0pXMEZYSHd5MUFOZFdCcHFNQXZ1dnF2SEdmVjJ4Mi9vbjhLZjJXandEaTJsOGdGOVZEQllyaU53L3IyR3ZLSmIyMktyNVd3ZnFmbHcydmNuSlhKa0E9PS0tbzViUU91aXNjc1VPYVp6VFJveWJ0QT09--1f13d740bc8dc14f1a64655ae5d6744102030daf)
+
 
 ## What Happens When Code is Pushed?
 
