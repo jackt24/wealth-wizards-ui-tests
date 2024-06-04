@@ -2,29 +2,8 @@
 
 This repository contains some Cypress smoke tests for the Wealth Wizards homepage. 
 
-You can find the API Repo here <a href="https://github.com/jackt24/wealth-wizards-api-test">
+[You can find the API tests here](https://github.com/jackt24/wealth-wizards-api-test)
 
-## Local Setup
-
-To run the tests locally, follow these steps:
-
-1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/your-username/wealth-wizards-ui-tests.git
-   ```
-
-2. **Install Dependencies:**
-   ```bash
-   cd wealth-wizards-ui-tests
-   npm install
-   ```
-
-3. **Run Tests:**
-   ```bash
-   npm test
-   ```
-
-   This command will execute the Cypress tests locally on your machine.
 
 ## What Happens When Code is Pushed?
 
