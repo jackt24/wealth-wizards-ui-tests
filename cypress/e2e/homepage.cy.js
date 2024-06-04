@@ -1,5 +1,6 @@
 // <reference types="cypress" />
 import Utils from "../pages/utils.js"
+import '@percy/cypress';
 
 describe('Basic UI Checks for Wealth Wizards', () => {
   beforeEach(() => {
