@@ -1,7 +1,7 @@
 {
     "auth": {
-      "username": "${{ secrets.BROWSERSTACK_USERNAME }}"
-      "access_key": "${{ secrets.BROWSERSTACK_ACCESS_KEY }}"
+      "username": "jacktaylor_4MW8bm",
+      "access_key": "TvsytLuDnRzSH3SvNF6v"
     },
     "browsers": [{
         "browser": "chrome",
