@@ -1,9 +1,4 @@
 {
-    "auth": {
-    // Remove ASAP!
-      "username": "jacktaylor_4MW8bm",
-      "access_key": "TvsytLuDnRzSH3SvNF6v"
-    },
     "browsers": [{
         "browser": "chrome",
         "os": "Windows 10",
@@ -26,7 +21,7 @@
       "npm_dependencies": {},
       "project_name": "Wealth Wizards UI Tests",
       "build_name": "Build no: 1",
-      "parallels": 2
+      "parallels": 1
     },
     "connection_settings": {
         "local": false
