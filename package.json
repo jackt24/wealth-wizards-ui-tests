@@ -13,5 +13,10 @@
     "@percy/cli": "^1.28.7",
     "@percy/cypress": "^3.1.2",
     "cypress": "^13.10.0"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^20.0.5",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.1",
+    "cypress-cucumber-preprocessor": "^4.3.1"
   }
 }
